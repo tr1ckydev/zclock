@@ -1,0 +1,10 @@
+.{
+    .name = .zclock,
+    .version = "0.1.0",
+    .fingerprint = 0x6322c68b98035aa3, // Changing this has security and trust implications.
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
