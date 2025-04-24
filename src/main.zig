@@ -112,10 +112,10 @@ fn printHelp(out: std.fs.File) !void {
         \\Options:
         \\  -s, --seconds           Display seconds for the clock.
         \\  -m, --military          Switch to 24-hour time.
-        \\  -d, --date              Display the date below the time.
+        \\  -d, --date              Display the date row below time.
         \\  --fmt=<FORMAT>          Custom strftime formatting for date row.
         \\  --color=<NAME>          A named color e.g. green, red, etc.
-        \\  --style=<STYLE>         Supported styles are default, dumb.
+        \\  --style=<STYLE>         Supported styles are default, line.
         \\  --x=<X>                 Position clock at given x-axis (cols).
         \\  --y=<Y>                 Position clock at given y-axis (rows).
         \\  --help                  Print this help menu.
